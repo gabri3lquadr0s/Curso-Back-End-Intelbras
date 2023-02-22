@@ -50,7 +50,7 @@ switch(opcao){
         }
 }
 if(estoqueCamisas + estoqueCalcas == 0){
-    alert("O estoque está esgotado")
+    alert("O estoque está esgotado, digite 'Sair' para deixar nossa loja.")
 }
 if(opcao == "Sair"){
     alert("Obrigado por visitar nossa loja!")
