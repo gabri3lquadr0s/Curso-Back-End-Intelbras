@@ -1,12 +1,12 @@
-function boolean(fuck){
-    fuck = prompt(`True or False?`)
-    if(fuck === "true"){
-        fuck = false
-        console.log(`${fuck}`)
+function boolean(option){
+    option = prompt(`True or False?`)
+    if(option === "true"){
+        option = false
+        console.log(`${option}`)
     }
-    else if(fuck === "false"){
-        fuck = true
-        console.log(`${fuck}`)
+    else if(option === "false"){
+        option = true
+        console.log(`${option}`)
     }
 }
 
