@@ -35,7 +35,9 @@ function conta(){
         case `2`:
             var resultadoHora = hora1 - hora2
             var resultadoMinuto = minuto1 - minuto2
-            resultadoMinuto = resultadoMinuto * -1
+            if(resultadoMinuto < 0){
+                resultadoMinuto = resultadoMinuto * -1
+            }
             alert(`O horário é ${resultadoHora} horas e ${resultadoMinuto} minutos.`)  
             break;
     }
