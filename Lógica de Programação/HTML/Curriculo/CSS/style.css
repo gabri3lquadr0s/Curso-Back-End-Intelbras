@@ -1,0 +1,18 @@
+#tituloPrincipal {
+    color: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #00ffff, rgb(36, 112, 179));
+}
+
+.subtitulos {
+    color: #216E6E;
+}
+
+#imgMinha{
+    border: 10px solid #000;
+}
