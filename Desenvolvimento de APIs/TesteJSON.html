@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <title>Teste JSON</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Teste JSON</h1>
+        <input type="number" id="cep" placeholder="CEP"><br><br>
+        <input type="text" id="rua" placeholder="Logradouro"><br><br>
+        <input type="text" id="bairro" placeholder="Bairro"><br><br>
+        <input type="text" id="cidade" placeholder="Cidade"><br><br>
+        <input type="text" id="pais" placeholder="País"><br><br>
+        <button onclick="buscaEndereco()">Buscar</button>
+    </div>
+</body>
+</html>
+<script>
+    var rua, bairro, cep, cidade, estado, pais
+    function cataDados(){
+        cep = document.getElementById("cep")
+        rua = document.getElementById("rua")
+        bairro = document.getElementById("bairro")
+        cidade = document.getElementById("cidade")
+        pais = document.getElementById("pais")
+    }
+    function buscaEndereco(){
+        cataDados()
+        if(cep.value == null || cep.value == ""){
+            alert("Por favor, digite o CEP")
+        }
+        var url = "https://viacep.com.br/ws/"+cep.value+"/json" //Trânsito entre páginas
+        var ponte = new XMLHttpRequest() //Cria a ponte do JSON para transitar
+        ponte.open('GET',url) //Abre conexão entre duas páginas
+        ponte.onload = () =>{
+            var resposta = JSON.parse(ponte.responseText)
+            rua.value = resposta.logradouro
+            bairro.value = resposta.bairro
+            cidade.value = resposta.localidade
+            estado.value = resposta.uf
+            pais.value = "Brasil"
+        }
+        ponte.send()
+    }
+</script>
