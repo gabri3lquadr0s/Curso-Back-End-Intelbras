@@ -1,7 +1,5 @@
 var escolhasPossiveis = [`pedra`,`papel`,`tesoura`]
-let ia
-let jogador
-let opcao
+var ia, jogador, opcao
 
 do{
     escolhas()
@@ -14,7 +12,6 @@ function escolhas(){
     jogador = prompt(`Pedra, papel, ou tesoura?`)
     while(jogador != `pedra` && jogador != `papel` && jogador != `tesoura`){
         alert(`Invalido`)
-        escolhaJogador()
     }
 }
 
