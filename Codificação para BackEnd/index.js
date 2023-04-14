@@ -15,11 +15,7 @@ server.get(`/cursos`, (req,res) =>{
 
 //listagem de um curso
 server.get(`/cursos/:index`, (req, res) => {
-    //console.log("Teste bem sucedido");
-    //const {id} = req.query;
-    //const {id} = req.params;
     const {index} = req.params;
-    //return res.json({curso: `${id}`});
     return res.json(cursos[index]);
 })
 
