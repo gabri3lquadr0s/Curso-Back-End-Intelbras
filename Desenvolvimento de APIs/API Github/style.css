@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://media.tenor.com/_8OFisnQxBMAAAAd/cicak-goyang.gif");
+    background-size: cover;
+}
+
+#githubIMG{
+    width: 350px;
+    height: 200px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+#usuarioGit{
+    width: 200px;
+    height: 30px;
+    border-radius: 8704px;
+}
+
+#butao{
+    border-radius: 8704px;
+}
+
+#infoUsuario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

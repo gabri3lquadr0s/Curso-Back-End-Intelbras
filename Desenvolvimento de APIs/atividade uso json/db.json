@@ -1,0 +1,64 @@
+{
+  "carro":[
+    {
+        "placa": "ABC1D23",
+        "marca": "Fiat",
+        "modelo": "Palio",
+        "ano": "2003"
+    },
+    {
+        "placa": "CFG8Y96",
+        "marca": "Volkswagen",
+        "modelo": "Gol",
+        "ano": "2010"
+    },
+    {
+        "placa": "TRE3U50",
+        "marca": "Honda",
+        "modelo": "Fit",
+        "ano": "2018"
+    },
+    {
+        "placa": "QWE9R87",
+        "marca": "Volkswagen",
+        "modelo": "Fusca",
+        "ano": "1970"
+    },
+    {
+        "placa": "LKV0G37",
+        "marca": "Reneult",
+        "modelo": "Kwid",
+        "ano": "2020"
+    },
+    {
+        "placa": "ASD5Y98",
+        "marca": "Hyundai",
+        "modelo": "Tucson",
+        "ano": "2023"
+    },
+    {
+        "placa": "POI1X36",
+        "marca": "Honda",
+        "modelo": "City",
+        "ano": "2019"
+    },
+    {
+        "placa": "CAR8L41",
+        "marca": "Volkswagen",
+        "modelo": "Gol",
+        "ano": "2005"
+    },
+    {
+        "placa": "GHP9U56",
+        "marca": "Chevrolet",
+        "modelo": "Cruise",
+        "ano": "2015"
+    },
+    {
+        "placa": "HJK5A80",
+        "marca": "Chevrolet",
+        "modelo": "Meriva",
+        "ano": "2012"
+    }
+  ]
+}

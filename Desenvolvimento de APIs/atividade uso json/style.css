@@ -1,0 +1,16 @@
+#titulo{
+    color: blue;
+}
+#placa{
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+}
+#botao{
+    border-radius: 5px;
+    height: 30px;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/b5/8e/c2/b58ec2792694b0655d19d514f9becc2e.gif");
+    background-size: cover;
+}
