@@ -19,6 +19,7 @@ function buscarUsuario(){
         <p>N° de seguidores: ${seguidores}</p>
         <p>N° de perfis seguindo: ${seguindo}</p>
         <p>N° de repositórios: ${repositorioPublico}</p>
-        <p><a href="https://github.com/${login}?tab=repositories" target="_blank">Link dos Repositórios</a></p>`;
+        <p><a href="https://github.com/${login}?tab=repositories" target="_blank">Link dos Repositórios</a></p>
+        <img src="${avatar}">`;
     });
 }
