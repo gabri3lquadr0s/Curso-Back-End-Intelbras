@@ -5,7 +5,7 @@ async function connect(){
     }
     const {Pool} = require(`pg`);
     const pool = new Pool({
-        connectionString: `postgres://onmvlvfd:DIGjVwTIX9BhgsRgkVfWgZz3rplY4B79@kesavan.db.elephantsql.com/onmvlvfd`
+        connectionString: ``
     })
     const client = await pool.connect();
     console.log(`Conectou`);
